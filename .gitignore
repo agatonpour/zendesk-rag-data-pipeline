@@ -1,0 +1,34 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+local.settings.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Runtime data and generated artifacts
+input/
+output/
+state/
+*.log
+*.zip
+*.csv
+*.xlsx
+*.xls
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/

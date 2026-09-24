@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+venv
+.env
+.env.*
+local.settings.json
+__pycache__
+output
+state
+tests
+*.log
+*.zip
